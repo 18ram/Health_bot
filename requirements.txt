@@ -18,3 +18,4 @@ pyaudio
 sounddevice
 livekit-plugins-google
 livekit-plugins-noise-cancellation
+PyMuPDF
