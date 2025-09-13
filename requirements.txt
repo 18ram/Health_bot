@@ -16,3 +16,5 @@ yagmail
 # Optional: audio
 pyaudio
 sounddevice
+livekit-plugins-google
+livekit-plugins-noise-cancellation
