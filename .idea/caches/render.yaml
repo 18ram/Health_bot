@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: jarviscare
+    env: docker
+    plan: starter
+    autoDeploy: true
+    region: oregon
+    dockerCommand: python agent.py
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: LIVEKIT_URL
+        sync: false
+      - key: LIVEKIT_API_KEY
+        sync: false
+      - key: LIVEKIT_API_SECRET
+        sync: false
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
+      - key: NOTION_API_KEY
+        sync: false
+      - key: NOTION_DATABASE_ID
+        sync: false
